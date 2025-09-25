@@ -15,7 +15,10 @@ int main() {
         {
             st.insert(word);
         }
-        
     }
     cout<<st.size()<<endl;
+
+
+
+    return 0;
 }
