@@ -14,6 +14,9 @@ int main() {
 	    student=make_pair(roll,name);
 	    allStudents.push_back(student);
 	}
+	// pair sort 
+	sort(allStudents.begin(),allStudents.end());
+	cout<<"Sorted by Roll\n";
 	for(auto curStudent: allStudents)
 	{
 	    cout<<"Roll: "<<curStudent.first<<" Name: "<<curStudent.second<<endl;
